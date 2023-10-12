@@ -1,14 +1,17 @@
-import { createContext, useReducer } from "react";
+import React, { createContext, useReducer, ReactNode } from "react";
 import { FormContextProps } from "./types";
 
-/** Criação do contexto do formulário para cadastrar agremiação */
-export const FormContext = createContext<FormContextProps>({} as FormContextProps);
+export const FormContext = createContext<FormContextProps | undefined>(undefined);
 
-export const FormContextProvider = ({children}) => {
-
-    return (
-        <FormContext.Provider value>
-            {children}
-        </FormContext.Provider>
-    )
+interface FormContextProviderProps {
+  children: ReactNode;
 }
+
+export const FormContextProvider: React.FC<FormContextProviderProps> = ({ children }) => {
+
+  return (
+    <FormContext.Provider value={{}}>
+      {children}
+    </FormContext.Provider>
+  );
+};
