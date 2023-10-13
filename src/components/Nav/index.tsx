@@ -1,6 +1,7 @@
 import React from 'react'
 import { DefaultButton, Item, List, Logo, NavBar, NavImage, Options, RegisterButton } from './style'
 import PageSymbol from "../../assets/logo-paco.png"
+import { Button } from '../Button/style'
 const Nav = () => {
     return (
         <NavBar>
@@ -15,7 +16,7 @@ const Nav = () => {
                 </List>
             </Options>
              <RegisterButton>
-                <DefaultButton>login</DefaultButton>
+             <Button width={"185px"} height={"35px"} margin={"20px"} color={"#27962D"}>Login</Button>
              </RegisterButton>
         </NavBar>
     )

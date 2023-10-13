@@ -73,6 +73,7 @@ export const DefaultButton = styled.button`
     border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
+    z-index: 3;
 
     &:hover {
         opacity: 0.7;
