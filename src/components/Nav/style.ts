@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+/** ?????? */
 export const NavBar = styled.nav`
     width: 100%;
     height: 75px;
@@ -9,6 +10,7 @@ export const NavBar = styled.nav`
  
 `;
 
+/** ?????????? */
 export const NavImage = styled.div`
     width: 12%;
     display: flex;
@@ -18,6 +20,7 @@ export const NavImage = styled.div`
 
 `;
 
+/** ??????????? */
 export const Options = styled.div`
     display: flex;
     justify-content: center;
@@ -27,11 +30,13 @@ export const Options = styled.div`
 
 `;
 
+/** ???????????????/ */
 export const Logo = styled.img`
     width: 65px;
     height: 65px;
 `;
 
+/** ??????????????? */
 export const List = styled.ul`
    display: flex;
    justify-content: space-around;
@@ -43,6 +48,7 @@ export const List = styled.ul`
 
 `;
 
+/** ??????????????? */
 export const Item = styled.li`
    padding-left: 1rem;
    cursor: pointer;
@@ -53,7 +59,9 @@ export const Item = styled.li`
     }
 `;
 
+/** ?????????????? */
 export const RegisterButton = styled.div`
+    // Jamais utilizar height e width em button
     height: 75px;
     width: 170px;
     display: flex;
@@ -63,6 +71,7 @@ export const RegisterButton = styled.div`
     
 `;
 
+/** ?????????????? */
 export const DefaultButton = styled.button`
     width: 185px;
     height: 35px;
