@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import AppRoute from './App';
 import { GloblaStyle } from './GlobalStyle';
+import Button from './components/button';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
